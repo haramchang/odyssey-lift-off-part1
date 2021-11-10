@@ -11,7 +11,7 @@ const mocks = {
     author: () => {
       return {
         id: "author_01",
-        author: "Grumpy Cat",
+        name: "Grumpy Cat",
         photo: 'https://res.cloudinary.com/dety84pbu/image/upload/v1606816219/kitty-veyron-sm_mctf3c.jpg'
       }
     },

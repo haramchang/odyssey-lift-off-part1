@@ -25,7 +25,7 @@ const typeDefs = gql`
   type Author {
     id: ID!
     "Author's first and last name"
-    author: String!
+    name: String!
     "Photo of author"
     photo: String
   }
