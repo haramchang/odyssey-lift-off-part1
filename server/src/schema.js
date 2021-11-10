@@ -7,13 +7,21 @@ const typeDefs = gql`
     "the track's title"
     title: String!
     "the track's author"
-    author: author
+    author: Author!
     "the track's main illustration to displaying in track card or track page detail"
     thumbnail: String
     "the track's approximate length to complete, in minutes"
     length: Int
     "the number of modules this track contains"
     modulesCount: Int
+  }
+
+  "Author of a complete Track"
+  type Author {
+    id: ID!
+    "Author's first and last name"
+    author: String!
+
   }
 `
 
